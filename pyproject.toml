@@ -1,0 +1,11 @@
+[project]
+name = "hh-salary-regression"
+version = "0.1.0"
+description = "Salary regression model trained on HH.ru parsed dataset"
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"

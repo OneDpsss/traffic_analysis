@@ -1,0 +1,1 @@
+python -m app.model.train path/to/x_data.npy path/to/y_data.npy
