@@ -2,7 +2,7 @@
 
 ## Параметры запуска
 ```bash
-python app path/to/hh.csv
+python -m app.main  path/to/hh.csv
 ```
 
 
