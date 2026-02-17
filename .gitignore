@@ -13,6 +13,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.npy
 
 venv/
 env/
