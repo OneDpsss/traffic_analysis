@@ -5,3 +5,27 @@ python app path/to/hh.csv
 Output:
 - x_data.npy
 - y_data.npy
+
+              precision    recall  f1-score   support
+
+      junior       0.87      0.91      0.89      6363
+      middle       0.86      0.85      0.86      6182
+      senior       0.95      0.71      0.81       844
+
+    accuracy                           0.87     13389
+   macro avg       0.89      0.82      0.85     13389
+weighted avg       0.87      0.87      0.87     13389
+
+
+Важность признаков (топ-10):
+   - numeric__experience_years: 0.056
+   - text_position__senior: 0.013
+   - text_position__lead: 0.011
+   - text_position__junior: 0.009
+   - text_position__teamlead: 0.007
+   - text_position__leader: 0.006
+   - text_position__тимлид: 0.006
+   - text_position__team: 0.005
+   - text_position__middle: 0.003
+   - text_position__architect: 0.002
+
