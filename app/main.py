@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from app.preprocessing import load_and_prepare
 from app.features import build_pipeline
 from app.train import train_model
-from app.evaluate import plot_balance, make_report
+from app.evaluate import plot_balance, make_report, show_top_features
 
 
 def main():
@@ -38,6 +38,8 @@ def main():
     )
 
     make_report(model, encoder, X_test, y_test)
+
+    show_top_features(model, top_n=10)
 
 
 if __name__ == "__main__":
